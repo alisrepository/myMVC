@@ -6,4 +6,9 @@ class App extends BaseController{
         $this->view('index.php',$data);
         $this->view('footer.php', $data);
     }
+
+    public function footer(){
+        $data = array('VAL'=>'footer only');
+        $this->view('footer.php', $data);
+    }
 }
