@@ -7,8 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+    
     <?php print_r($base_url);?>
+
     Hello world!
-    <a href="<?= $base_url?>Home/footer">goto</a>
+    "<?= $base_url?>Home"
+    <a href="<?= $base_url?>Controller/Home.php">goto</a>
 </body>
 </html>
